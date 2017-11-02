@@ -1,0 +1,184 @@
+/* ----------主体---------- */
+body { background: #fff;}
+body.ui-mobile-viewport { padding: 0; }
+body, input, textarea, select, button { font-family: Helvetica, Arial, san-serif; font-size:12px; }
+a.ui-link-inherit {text-decoration:none!important}
+
+
+
+/* ----------全局浮动 清除浮动 隐藏---------- */
+
+.fl {float:left}
+.fr {float:right}
+.clearfix:after {content:".";display:block;height:0;clear:both;overflow:hidden}
+.clr {clear:both}
+.hidden {display:none!important}
+
+
+.qrcode {background: url(/inc/pics/qrcode.png) no-repeat center center;width: 40px;height: 40px;}
+.qrcode2 {background: url(/inc/pics/qrcode2.png) no-repeat center center;width: 50px;height: 40px;}
+
+
+/* ----------首页设定---------- */
+
+.main_header h1.ui-title {font-size:26px;font-weight:300;margin:.4em 10% .2em}
+.main_header h1.ui-title span,.main_header h3.ui-title {font-weight:700}
+.main_header h3.ui-title {font-size:9px;margin:.4em 6% .9em;text-transform:uppercase}
+h5 {font-size:15px;font-weight:400;margin:.2em 0}
+p {	font-size:12px;	font-weight:300;line-height:1.6}
+
+h3.ui-li-heading {font-size:15px;margin:.4em 0}/* --首页LISTVIEW的H3设定-- */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/*  header */
+#headertop{position:relative; width:100%; height:70px;  }
+#headerlogo img{ position:absolute; left:15px; top:10px;height:50px; border: 0;max-width: 100%;display: block; }
+
+#menu {
+float: right;
+margin-top: 7px;
+display: block;
+height: 43px;
+margin-right: 10px;
+}
+
+#menu ul {
+float: left;
+height: 39px;
+width: auto;
+overflow: hidden;
+margin-right: 10px;
+}
+
+
+#menu ul li {
+display: inline;
+height: 100%;
+margin-right: 17px;
+float: left;
+}
+
+/*  英语按钮 */
+#langen{ position:absolute;width:30px; height:30px;  top:15px; right:20px; 
+background:-webkit-gradient(linear,0 0,0 100%,
+color-stop(0,#474747),
+color-stop(20,#4e4e4e));
+border-radius: 1px;text-align: center; line-height:30px;cursor: auto;color:#fff;border:0.5px solid #8e8e8e;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 5px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+box-shadow: #666 0px 0px 10px; }
+#langen a{color:#fff;text-decoration: none;font-style: normal; }
+#langen a:hover{color:#fff;text-decoration: none;font-style: normal; }
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+/*  content */
+#contentbox{ background-color:#FFFFFF; margin-left:10px; margin-right:10px; height:auto !important; height:200px; min-height:200px; }
+#contentbox2{ background-color: transparent; margin-left:10px; margin-right:10px; height:auto !important; height:200px; min-height:200px; }
+
+
+#banner{margin:15px; }
+#banner img{ width:100%;  padding-bottom:0px; margin-bottom:0px; margin-top:15px; }
+
+#contenttop{ height:40px; background-color:#000; color:#f1f1f1; line-height:40px; padding-left:5px;
+margin:15px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 0px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+box-shadow: #666 0px 0px 10px;}
+
+/*  content-primary */
+.content-primary{ margin:10px;padding:5px;}
+
+/* 更改图标 */
+.content-primary .ui-link-inherit{font-size:14px; color:#666666; padding-left:15px; }
+.content-primary .ui-icon{
+border-radius:0;
+border:none;
+background: none;
+background-image: url('/inc/pics/icons-18-black.png') !important;
+background-position: -107px 0px !important;
+-moz-box-shadow: 0px 0px 0 rgba(255,255,255,.4) /*{global-icon-shadow}*/;
+-webkit-box-shadow: 0px 0px 0 rgba(255, 255, 255, .4) /*{global-icon-shadow}*/;
+box-shadow: 0px 0px 0 rgba(255, 255, 255, .4) /*{global-icon-shadow}*/;
+}
+
+/* .ui-listview .ui-li-icon {max-height: 30px;max-width: 30px;left: 10px;top: .5em;}
+
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+padding: .7em 55px;
+display: block;
+}
+*/
+#abouttop{ background-color:#014da1; height:50px; margin:10px auto; font-size:26px; padding-left:20px;line-height:50px; color:#fff}
+#abouttop2{ background-color:#014da1; height:50px; margin:10px auto; margin-top:-10px; font-size:26px; padding-left:20px;line-height:50px; color:#fff}
+
+#aboutbox{ padding:15px; }
+#aboutbox img{ width:100%}
+
+
+/* 更改图标 */
+.newsmenu .ui-link-inherit{font-size:12px; color:#cccccc; margin-left:-35px; }
+.newsmenu .ui-icon{
+border-radius:0;
+border:none;
+background: none;
+background-image: url('/inc/pics/icons-18-black.png') !important;
+background-position: -107px 0px !important;
+-moz-box-shadow: 0px 0px 0 rgba(255,255,255,.4) /*{global-icon-shadow}*/;
+-webkit-box-shadow: 0px 0px 0 rgba(255, 255, 255, .4) /*{global-icon-shadow}*/;
+box-shadow: 0px 0px 0 rgba(255, 255, 255, .4) /*{global-icon-shadow}*/;
+}
+
+
+#productviewbox{ padding:15px;line-height:25px; padding-top:0px;}
+#productviewbox img{ width:100%; }
+/*---------------------------------------------------------------------------------------------------------------------- */
+
+/*  Footer */
+#footerbox{ height:90px;  color:#666666; text-align:center; line-height:20px; padding-top:20px;}
+
+.ui-bar-a {border:0 solid #171517 /*{a-bar-border}*/;}
+.ui-content {padding: 0;}
+
+
+				.nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+				.nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+				#telnum .ui-icon { background:  url(/inc/pics/tel.png) 50% 50% no-repeat; background-size: 22px 21px; }
+				#emailaddr .ui-icon { background:  url(/inc/pics/email.png) 50% 50% no-repeat; background-size: 24px 22px;  }
+				#mapcode .ui-icon { background:  url(/inc/pics/map.png) 50% 50% no-repeat;  background-size: 24px 26px; }
+				#share .ui-icon { background:  url(/inc/pics/share.png) 50% 50% no-repeat;  background-size: 22px 27px; }
+				#message .ui-icon { background:  url(/inc/pics/message.png) 50% 50% no-repeat;  background-size: 24px 22px; }
+.ui-grid-d > :nth-child(n) {width: 20%;}
+
+#sharebox{ width:100%; padding-left:10px; margin-top:10px; }
+#sharebox a {float: left; margin: 10px;}
+
+
+.ui-content {padding: 0;}
+
+
+
+/*  返回按钮 */
+#backmenu{ width:100%; height:30px; margin-bottom:10px; 
+background:-webkit-gradient(linear,0 0,0 100%,
+color-stop(0,#fafafa),
+color-stop(20,#eeeeee));
+border-radius: 1px;text-align: center; line-height:30px;cursor: auto;color:#377e9e;border:1px solid #e6e6e6;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 5px;
+-webkit-box-shadow: #666 0px 0px 10px;
+-moz-box-shadow: #666 0px 0px 10px;
+box-shadow: #666 0px 0px 10px; }
+#backmenu a{color:#404040;text-decoration: none;font-style: normal; }
+#backmenu a:hover{color:#000;text-decoration: none;font-style: normal; }
+
