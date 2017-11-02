@@ -2,7 +2,7 @@ README
 ===========================
 PHP-WEBSITE-BMW a complete enterprise website, including the Frontend and Backend admin page.  Now uploaded in the Github warehouse because of the end of the project/product life cycle. The code is for learning only, and prohibits any business related behavior,website does not use any MVC/CMS framework,Frontend page UI use jquery mobile, very suitable for beginners PHP study.
 
-PHP-MOBILE-mobi48_five 很早做的一个手机网站，界面傻，包括前台后台，因为项目生命周期完结，整理到仓库中以做总结，代码仅供学习，禁止任何与商业有关的行为！
+PHP-MOBILE-mobi48_five 很早做的一个手机网站，包括前台后台，因为项目生命周期完结，整理到仓库中以做总结，代码仅供学习，禁止任何与商业有关的行为！
 站点前后端未用任何MVC框架、未用任何第三方CMS系统，不存在复杂的一堆看不明白的代码，全程序均手写，非常适合PHP初学者入门。   
 
 
